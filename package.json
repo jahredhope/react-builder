@@ -1,0 +1,19 @@
+{
+  "name": "react-builder",
+  "main": "./lib/react-builder",
+  "version": "0.0.1",
+  "description": "A collection of tools for building React applications.",
+  "keywords": [],
+  "repository": "https://github.com/atom/react-builder",
+  "license": "MIT",
+  "author": "Jahred Hope <jahredhope@gmail.com>",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "color-convert": "^1.9.0",
+    "fs-promise": "^2.0.3",
+    "less": "^2.7.2",
+    "recursive-readdir": "^2.2.1"
+  }
+}

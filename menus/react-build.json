@@ -1,0 +1,38 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "New Nested Component",
+        "command": "react-builder:newNestedComponent"
+      },{
+        "label": "New Component Here",
+        "command": "react-builder:newComponentHere"
+      }, {
+        "label": "Startup",
+        "command": "react-builder:startup"
+      },{
+        "label": "Copy styles to clipboard",
+        "command": "react-builder:getStyleForSelectedText"
+      },{
+        "label": "Get styles for selection",
+        "command": "react-builder:Get styles for selection"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "react-builder",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "react-builder:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

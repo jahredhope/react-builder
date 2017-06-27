@@ -1,0 +1,24 @@
+.job-details-ad-status__wrapper {
+  display: flex;
+  background-color: #ffffff;
+  flex-direction: column;
+  padding: 18px;
+}
+@media only screen and (min-width: 600px) {
+  .job-details-ad-status__wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .job-details-ad-status__wrapper {
+    width: 622px;
+    margin-top: 18px;
+    margin-left: 24px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 990px) {
+  .job-details-ad-status__wrapper {
+    padding: 27px 27px 18px 27px;
+  }
+}
