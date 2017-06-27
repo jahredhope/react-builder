@@ -8,9 +8,6 @@
         "label": "New Component Here",
         "command": "react-builder:newComponentHere"
       }, {
-        "label": "Startup",
-        "command": "react-builder:startup"
-      },{
         "label": "Copy styles to clipboard",
         "command": "react-builder:getStyleForSelectedText"
       },{
