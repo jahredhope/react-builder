@@ -1,9 +1,12 @@
 {
   "name": "react-builder",
   "main": "./lib/react-builder",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A collection of tools for building React applications.",
-  "keywords": ["react", "builder"],
+  "keywords": [
+    "react",
+    "builder"
+  ],
   "repository": "https://github.com/jahredhope/react-builder",
   "license": "MIT",
   "author": "Jahred Hope <jahredhope@gmail.com>",
