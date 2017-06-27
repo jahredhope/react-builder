@@ -1,35 +1,45 @@
 {
   "context-menu": {
-    "atom-text-editor": [
-      {
+    "atom-text-editor": [{
+      "label": "React Builder",
+      "submenu": [{
         "label": "New Nested Component",
         "command": "react-builder:newNestedComponent"
-      },{
+      }, {
         "label": "New Component Here",
         "command": "react-builder:newComponentHere"
       }, {
         "label": "Copy styles to clipboard",
         "command": "react-builder:getStyleForSelectedText"
-      },{
+      }, {
         "label": "Get styles for selection",
         "command": "react-builder:Get styles for selection"
-      }
-    ]
+      }, {
+        "label": "Convert Knockout to JSX",
+        "command": "react-builder:Convert Knockout Template To JSX"
+      }]
+    }]
   },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "react-builder",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "react-builder:toggle"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "React Builder",
+      "submenu": [{
+        "label": "New Nested Component",
+        "command": "react-builder:newNestedComponent"
+      }, {
+        "label": "New Component Here",
+        "command": "react-builder:newComponentHere"
+      }, {
+        "label": "Copy styles to clipboard",
+        "command": "react-builder:getStyleForSelectedText"
+      }, {
+        "label": "Get styles for selection",
+        "command": "react-builder:Get styles for selection"
+      }, {
+        "label": "Convert Knockout to JSX",
+        "command": "react-builder:Convert Knockout Template To JSX"
+      }]
+    }]
+  }]
 }

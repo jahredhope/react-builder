@@ -12,6 +12,8 @@
   },
   "dependencies": {
     "color-convert": "^1.9.0",
+    "eslint": "^4.1.1",
+    "eslint-plugin-import": "^2.6.0",
     "fs-promise": "^2.0.3",
     "less": "^2.7.2",
     "recursive-readdir": "^2.2.1"
